@@ -2,8 +2,8 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-col">
-        <h4>Tutorial</h4>
-        <p>A follow-along guide to Project Hummingbird with Podman, Podman Compose, and Podman Desktop on Fedora&nbsp;43 and macOS.</p>
+        <h4>{{ site.title | default: "Tutorial" }}</h4>
+        <p>{{ site.description | default: "A technical tutorial." }}</p>
       </div>
       <div class="footer-col">
         <h4>Reference</h4>
@@ -16,14 +16,18 @@
       <div class="footer-col">
         <h4>Source</h4>
         <ul>
-          <li><a href="https://quay.io/organization/hummingbird" rel="noopener">Hummingbird images on Quay ↗</a></li>
-          <li><a href="https://catalog.redhat.com/" rel="noopener">Red Hat container catalog ↗</a></li>
-          <li><a href="https://podman.io/" rel="noopener">Podman ↗</a></li>
+          {% comment %}
+            TODO: replace these with links specific to your project.
+            Common things to include: upstream documentation, the
+            tool's homepage, the project's package registry.
+          {% endcomment %}
+          <li><a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}" rel="noopener">View on GitHub ↗</a></li>
+          <li><a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/issues" rel="noopener">Issues ↗</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-meta">
-      <span>Open source · Apache 2.0</span>
+      <span>Open source · {{ site.license | default: "Apache 2.0" }}</span>
       <span>Last built {{ site.time | date: "%Y-%m-%d" }}</span>
     </div>
   </div>

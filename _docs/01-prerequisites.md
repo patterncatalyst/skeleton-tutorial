@@ -9,7 +9,7 @@ duration: 15 minutes
 
 This is typically the first section readers actually do, and the
 section with the most platform-specific quirks. A few patterns that
-worked on the Hummingbird build:
+worked on the project this skeleton was extracted from:
 
 ## Always have separate Fedora and macOS instructions
 

@@ -1,7 +1,10 @@
 /* =============================================================
-   Hummingbird tutorial — site styles
+   Tutorial site styles
    Aesthetic: Red Hat brand fonts, light surface, red accent,
    card grid landing, numbered detail pages.
+   Red Hat Display / Text / Mono are loaded from Google Fonts in
+   _layouts/default.html — see that file if you want to swap them
+   for a different family.
    ============================================================= */
 
 /* ---- 1. Tokens --------------------------------------------- */
@@ -25,7 +28,7 @@
   --accent-hover:     #c00000;
   --accent-soft:      #ffeaea;
 
-  --hummingbird:      #151515;       /* deep almost-black footer */
+  --footer-bg:        #151515;       /* deep almost-black footer */
 
   /* Typography */
   --font-display: "Red Hat Display", -apple-system, BlinkMacSystemFont,
@@ -695,7 +698,7 @@ pre code {
 /* ---- 12. Footer -------------------------------------------- */
 
 .site-footer {
-  background: var(--hummingbird);
+  background: var(--footer-bg);
   color: var(--ink-on-dark);
   padding: var(--space-8) 0 var(--space-6);
   margin-top: var(--space-9);

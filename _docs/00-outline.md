@@ -30,8 +30,8 @@ A typical technical tutorial follows this shape:
 8. **Where to go next** — pointers to deeper resources
 
 Adjust the count up or down based on your topic's complexity. The
-Hummingbird tutorial this skeleton is extracted from has 17
-sections; a simpler topic might have 6.
+project this skeleton was extracted from had 17 sections; a simpler
+topic might have 6.
 
 ## File naming
 
