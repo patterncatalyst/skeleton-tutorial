@@ -48,6 +48,7 @@ The total file count of the skeleton is ~25 files. Most are short.
 ├── README.md                ← This file (replace with your project's README)
 ├── PRD.md                   ← Product requirements doc — fill in before writing
 ├── GETTING-STARTED.md       ← Step-by-step setup instructions
+├── STARTING-WITH-CLAUDE.md  ← How to use this skeleton with Claude on new projects
 ├── LESSONS-LEARNED.md       ← Empirical wisdom about Podman, Jekyll, AI workflows
 ├── LICENSE                  ← Apache 2.0 (replace with your license)
 │
