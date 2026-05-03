@@ -46,6 +46,7 @@ The total file count of the skeleton is ~25 files. Most are short.
 ├── _config.yml              ← Jekyll config; edit branding here
 ├── Gemfile                  ← Ruby deps; pinned to Pages-compatible versions
 ├── README.md                ← This file (replace with your project's README)
+├── PRD.md                   ← Product requirements doc — fill in before writing
 ├── GETTING-STARTED.md       ← Step-by-step setup instructions
 ├── LESSONS-LEARNED.md       ← Empirical wisdom about Podman, Jekyll, AI workflows
 ├── LICENSE                  ← Apache 2.0 (replace with your license)
